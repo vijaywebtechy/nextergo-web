@@ -1,0 +1,1149 @@
+html,body{
+    font-family: "ProximaNova-Regular" !important;
+    transition: all 2s ease; 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*header*/
+header{
+    background-color: #F3F3F3;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+    padding: 1.3rem 0rem !important;
+}
+
+header .container{
+    padding: 0;
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+.navbar-nav .nav-item{
+    margin-right: 30px;
+}
+
+.cross {
+    position: relative;
+}
+.cross:after,
+.cross:before {
+  position: absolute;
+  content: '';
+  top: 54%;
+  left: 2px;
+  width: 100%;
+  height: 2px;
+  background: black;
+}
+.cross:before {
+  transform: rotate(45deg);
+}
+.cross:after {
+  transform: rotate(-45deg);
+}
+
+
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus, .navbar-toggler:hover{
+    outline: none;
+}
+a.nav-link{
+    font-size: 18px;
+    color: #080808;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: rgba(0,0,0,1) !important;
+    letter-spacing: 0.2px !important;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+.navbar-nav li:last-child {
+    margin-right: 0;
+}
+.navbar-nav li:last-child a{
+    font-size: 16px;
+    font-family: 'ProximaNova-Bold';
+    color: #fff !important;
+    padding:15px 54px !important;
+    background-color: #8100D9;
+    border-radius: 50px;
+}
+
+.navbar-nav li:last-child a:hover{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    transition: 0.5s;
+}
+
+/*nav menu animation*/
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav li a:before {
+  content: "[";
+  left: -5px;
+}
+
+.navbar-nav li a:after {
+  content: "]";
+  right: -5px;
+}
+
+.navbar-nav li a:before,
+.navbar-nav li a:after {
+  position: absolute;
+  opacity: 0;
+  color: #8100D9;
+  top: 2px;
+  transition: all .5s;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar-nav li a:hover:before,
+.navbar-nav li a:hover:after {
+  opacity: 0.7;
+}
+
+.navbar-nav li a:hover:before {
+  left: -10px;
+}
+
+.navbar-nav li a:hover:after {
+  right: -10px;
+}
+
+.navbar-nav li:last-child a:hover:before,
+.navbar-nav li:last-child a:hover:after {
+  opacity: 0;
+}
+
+
+.nav-toggle{
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.nav-toggle.down{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+/*nav menu animation end*/
+
+/*header end*/
+
+/*Banner*/
+.banner{
+    position: relative;
+    margin-top:115px;
+}
+.banner .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.banner-image {
+  background: transparent url('../images/banner/home-banner.png') 0% 0% no-repeat padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-image .container{
+    padding: 430px 0;
+}
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left: auto;
+    transform: translate(0%, -50%);
+    color: #000000;
+    text-align: left;
+}
+.banner-text h1{
+    font-size: 86px;
+    font-weight: normal;
+    line-height: 1;
+}
+.banner-text h1 strike {
+    color: #8200DD;
+}
+.banner-text p{
+    font-size: 32px;
+    font-weight: normal;
+    padding-top: 12px;
+}
+.banner-text div{
+    margin-right: 50px;
+    margin-top: 125px;
+}
+.banner-text div a{
+    margin-right: 50px;
+}
+/*--------------------------------banner-end---------------------------------------------------*/
+
+/*---------------------------------buttons---------------------------------------------*/
+.btns{
+    text-decoration: none !important;
+    font-size: 22px;
+    font-family: 'ProximaNova-Bold';
+    padding: 32px 105px;
+    text-align: center;
+}
+.btns:hover{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    transition: 0.5s;
+}
+.primary-btn{
+    color: #fff !important;
+    background: #8000D5 0% 0% no-repeat; 
+}
+.secondary-btn{
+    color: #8000D5;
+    background: #fff
+}
+
+/*----------------------------------buttons end----------------------------------------------*/
+
+/*---------------------------------about section--------------------------------------------*/
+.about{
+    height: 740px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.about-inner{
+    display: flex;
+    position: relative;
+}
+.about .container{
+    position: relative;
+
+}
+.about  .card{
+    background: #7F0FD1 0% 0% no-repeat padding-box;
+    width: 562px !important;
+    height: 473px;
+    border-radius: 12px;
+    margin-top: 106px;
+}
+.about  .card div > h3{
+    font-size: 49px;
+    font-family: 'ProximaNova-Light';
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.about  .card div > h2{
+    font-size: 54px;
+    font-family: 'ProximaNova-Regular';
+    color: #fff;
+}
+.about  .card div > p{
+    font-size: 22px;
+    font-family: 'ProximaNova-Regular';
+    color: #fff;
+    margin-top: 28px;
+}
+.about  .card div{
+    padding: 18px 14px;
+    z-index: 9;
+}
+.about  .card div .carousel-indicators{
+    right: inherit;
+    margin-left: 8%;
+}
+.about  .card div .carousel-indicators li{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+
+}
+.about-img{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+/*--------------------------------------------------about section end---------------------------------*/
+
+
+/*--------------------------------------------------what is ergo--------------------------------------*/
+.slider-img img{
+    margin: 0 0 0 auto;
+}
+
+.what-is-ergo{
+    margin: 86px 0;
+}
+.what-is-ergo .slider div h3{
+    font-size: 49px;
+    font-family: 'ProximaNova-Light';
+    color: #000;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.what-is-ergo .slider div h2{
+    font-size: 54px;
+    font-family: 'ProximaNova-Regular';
+    color: #8000D5;
+}
+.what-is-ergo .slider div .p-grph{
+    margin-top: 85px;
+}
+.what-is-ergo .slider div p{
+    font-size: 22px;
+    font-family: 'ProximaNova-Regular';
+    color: #000000;
+}
+.slick-dots button{
+    background: #e4e4e4 ;
+}
+/*
+.slick-dots li.slick-active button {
+    background-color: #7F0FD1;
+}
+*/
+
+  .slick-dots li button:before
+    {
+        font-size: 6px;
+        line-height: 20px;
+
+    }
+.what-is-ergo .slick-dots{
+    position: absolute;
+    top: 37%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.what-is-ergo .slick-next { 
+    right: 0; z-index: 1; 
+} 
+.what-is-ergo .slick-prev {
+    left: 0; z-index: 1;
+}
+
+.what-is-ergo .slick-next {
+    top: 16%;
+    left: 40%;
+    background: url(../images/icons/right-arrow.svg) !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 58px !important;
+}
+.what-is-ergo .slick-prev{
+    display: none !important;
+}
+.what-is-ergo .slick-next:before{
+    display: none !important;
+}
+.what-is-ergo .slick-dots li.slick-active button:before {
+    color: #7F0FD1 !important;
+}
+
+.what-is-ergo .slick-dots li button:before{
+    font-size: 56px;
+}
+  .what-is-ergo .slider-track {
+    transition: all 1s cubic-bezier(0.7, 0, 0.3, 1) !important;
+  }
+/*---------------------------------------what is ergo  end-------------------------*/
+
+
+/*---------------------------------------------ergo benefits sec-----------------------------*/
+
+.personal-benefits img{
+    z-index: 1;
+}
+.personal-benefits ul li{
+    list-style: none;
+    margin-bottom: 31px;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+.personal-benefits  h2{
+    padding-left: 40px;
+    font-size:45px;
+    font-family: 'ProximaNova-Light';
+    color: #000000;
+    padding-bottom: 34px;
+
+}
+.personal-benefits ul li img{
+    height: 24px;
+    width: 24px;
+    margin-right: 23px;
+}
+.personal-benefits div:last-child{
+
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    position: absolute;
+    left: 13%;
+    z-index: 0;
+    top: 0;
+    padding: 111px 32px 111px 214px;
+}
+.personal-benefits div:first-child{
+    top: 11%;
+    position: absolute;
+    z-index: 9;
+}
+
+/*benifits sec*/
+
+.ergo-benefits .container-fluid .row .col-lg-6{
+    padding-left: 0;
+    padding-right: 0;
+}
+.business-benefits .img-rt img{
+    position: absolute;
+    right: 68%;
+    top: 5%;
+}
+.business-benefits .business-inner-sec{
+/*    height: 746px;*/
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    padding: 111px 0 111px 230px;
+/*
+    padding-top: 151px;
+    padding-left: 230px;
+*/
+    display: flex;
+    justify-content: space-between;
+}
+.business-benefits .business-inner-sec div:nth-child(1){
+    padding-left: 100px;
+}
+.business-benefits div ul li{
+    list-style: none;
+    margin-bottom: 31px;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+.business-benefits div h2{
+    padding-left: 40px;
+    font-size:45px;
+    font-family: 'ProximaNova-Light';
+    color: #000000;
+    padding-bottom: 36px;
+}
+.business-benefits div ul li img{
+    height: 24px;
+    width: 24px;
+    margin-right: 23px;
+}
+.personal-benefits ul li:hover,
+.business-benefits ul li:hover
+{
+    color: #8100D9 !important;
+}
+
+/*-----------------------------------benifits sec end-------------------------------------*/
+
+
+/*--------------------------------------nexgen vision-------------------------------------- */
+.nexgen-vision{
+    background-color: #8000D5; 
+    padding: 48px 0;
+    margin-top: 43px;
+}
+.nexgen-vision .container{
+    text-align: center;
+    padding: 20px;
+}
+.nexgen-vision .container h4{
+    font-size: 49px;
+    color: #FFFFFF;
+    padding-bottom: 27px;
+}
+.nexgen-vision .container p{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------nexgen vision end-------------------------------------- */
+
+
+/*--------------------------------------nexgen desk futures-------------------------------------- */
+
+.futures-slider {
+   cursor: pointer;
+   width: 1051px;
+/*
+   padding-top: 139px;
+   padding-bottom: 139px;
+*/
+}
+.futures-slider img {
+   width: 45px;
+   height: 45px;
+}
+.futures-slider .item ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.futures-slider .item ul li:last-child{
+     margin-bottom: 0;
+}
+.slider_section {
+   width: auto;
+   margin-left: 40px;
+}
+.slider_section h3{
+   font-size: 34px;
+   color: #000000;
+   margin-bottom: 0;
+   line-height: normal;
+}
+.slider_section p{
+   font-size: 22px;
+   color: #000000;
+   line-height: normal;
+   margin-bottom: 0px!important;
+}
+
+.futures-slider .vertical-dots {
+
+   display: block;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-align: right;
+
+}
+.futures-slider .vertical-dots li button:before{
+   font-family: 'slick';
+   font-size: 6px;
+   line-height: 20px;
+   position: absolute ;
+   top: 0;
+   left: 0;
+   width: 10px ;
+   height: 18px ;
+    border-radius: 25px;
+   content: ''  ;
+   text-align: center  ;
+   opacity: 1 !important;
+   color: black;
+   -webkit-font-smoothing: antialiased;
+   background:  #ddd!important;
+}
+.futures-slider .vertical-dots li.slick-active button:before{
+   background-color: #8000D5 !important;
+   height: 26px;
+    border-radius: 25px;
+}
+.futures-slider ul.slick-dots {
+    height: auto;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.ergo-futures{
+    padding: 151px 0;
+    background: #F7F7F7;
+    position: relative;
+}
+
+.ergo-futures .container-fluid .row{
+    align-items: center;
+}
+
+.ergo-futures .futures-card{
+    margin-left: 124px;
+    width: 627px;
+    padding: 120px 52px;
+    border: 1px solid #D6D6D6;
+    background: #ffffff;
+    border-radius: 6px;
+}
+.ergo-futures .futures-card h3{
+    font-size: 49px;
+    color: #000000;
+    font-family: 'ProximaNova-Light';
+    margin-bottom: 0;
+    line-height: 1;
+}
+.ergo-futures .futures-card h2{
+    font-size: 54px;
+    color: #8000D5;
+}
+.ergo-futures .futures-card p{
+    font-size: 22px;
+    color: #000000;
+    padding-top: 22px;
+    padding-bottom: 106px;
+}
+
+
+.slick-vertical .slick-slide{
+    outline: none;
+}
+.vertical-dots
+{
+    right:10px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin-top: -10px;
+    text-align: right;
+}
+.vertical-dots li
+{
+    position: relative;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+.vertical-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.vertical-dots li button:hover,
+.vertical-dots li button:focus
+{
+    outline: none;
+}
+.vertical-dots li button:hover:before,
+.vertical-dots li button:focus:before
+{
+    opacity: 1;
+}
+
+.vertical-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+/*--------------------------------------nexgen desk futures end-------------------------------------- */
+
+
+/*--------------------------------------contact sec--------------------------------------------*/
+.contact-sec{
+  background-color: #6606AC!important;
+  padding: 70px 0;
+}
+.contact-sec .contact-1 p{
+   margin: 30px 0px 100px;
+   color: #DFB1FF;
+   line-height: 29px;
+}
+.social-icons{
+   display: flex;
+}
+.social-icons a:hover img{
+    transition: 0.5s ease;
+    transform: rotate(360deg);
+}
+.touch{
+   color: #DFB1FF;
+   margin-bottom: 15px;
+}
+.social{
+   margin-right: 20px;
+}
+.contact-sec ul{
+ list-style: none;
+   margin-bottom: 0px;
+}
+.contact-sec ul .link-head{
+   color: #FFFFFF;
+   font-size: 25px;
+   margin-bottom: 32px;
+}
+.contact-sec ul li{
+   margin-bottom: 15px;
+}
+.contact-sec ul li a{
+   font-size: 18px;
+   color: #DFB1FF;
+   text-decoration: none;
+}
+.contact-sec ul li a:hover{
+    color: #fff !important;
+}
+
+.contact-head{
+   padding-left: 0px;
+}
+.contact-head li{
+   margin-bottom: 20px;
+   color: #DFB1FF;
+}
+.contact-head a:hover{
+    color: #fff !important;
+}
+.contact-head li:nth-child(3) p{
+   margin-bottom: 0;
+}
+.contact-head li:nth-child(3) a{
+    color: #DFB1FF;
+    display: block;
+    margin: 8px 0;
+}
+.emails a{
+    display: block;
+}
+
+.mail-sec p{
+    color: #FFFFFF;
+   font-size: 25px;
+   line-height: 30px;
+}
+.contact-sec form{
+   margin-top: 30px;
+}
+.input-txt{
+   padding: 13px;
+   width: 426px;
+   border-radius: 4px!important;
+   font-size: 18px;
+   border: none;
+}
+::placeholder{
+   color: #BCBCBC;
+}
+.submit{
+   margin-top: 10px;
+   padding: 10px;
+    width: 426px;
+   border-radius: 4px!important;
+   font-size: 20px;
+   color: #fff;
+   background: none;
+   border: 1px solid #FFFFFF;
+}
+.submit:hover{
+    background: #fff;
+    color: #6606AC;
+}
+.footer-sec{
+   padding: 42px 0px;
+   padding-left: 124px;
+   padding-right: 145px;
+   background-color: #212121;
+}
+.footer-txt{
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
+.footer-txt p{
+    margin-bottom: 0;
+}
+.footer-txt a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-txt a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/*--------------------------------------contact sec end--------------------------------------------*/
+
+
+/*-------------------------------------pre-order sec start---------------------------------*/
+.order-sec{
+    background-image: url("../images/img/order-img.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 112px 0;
+    position: relative;
+}
+.light{
+    position: absolute;
+    width: 100px;
+    position: absolute;
+    width: 259px;
+    left: 84px;
+    top: 51%;
+    	-webkit-transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+	transition:opacity .25s ease-in-out;
+}
+.light.blink {
+	opacity:0;
+}
+.order, .product{
+  text-align: center;
+}
+.order h3{
+   font-size: 50px;
+   color: #000000;
+}
+.order h5{
+    font-size: 30px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 74px;
+}
+.order button{
+   padding: 14px 120px;
+   background-color: #8100D9;
+   border-radius: 2px;
+   border: none;
+   color: #FFFFFF;
+   font-size: 22px;
+}
+.avialable-stores-sec{
+   background-color: #F7F7F7;
+   padding: 73px 0;
+}
+.stores h3{
+   font-size: 50px;
+    color: #000000;
+}
+.stores h5{
+   font-size: 30px;
+   color: #000000;
+   padding-top: 10px;
+}
+.avialable-stores-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.store-images{
+    padding-top: 63px;
+}
+.store-images img{
+    margin-right: 18px;
+}
+
+.store-images img:last-child{
+    margin-right: 0;
+}
+/*-------------------------------------pre-order sec start---------------------------------*/
+
+/*---------------------------------we are on mobile-------------------------------*/
+.mobile-sec{
+   display: flex;
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+.mobile-sec .col-lg-7{
+    position: relative;
+}
+.mobile-txt, div h3{
+  font-size: 49px;
+    color: #8100D9;
+}
+.mobile-txt, div h2{
+  font-size: 54px;
+    color: #000;
+}
+.mobile-txt{
+  font-size: 54px;
+  color: #6400AA;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6%;
+  padding-right: 12%;
+}
+.mobile-txt p{
+  font-size: 22px;
+   color:#000000;
+   margin-top: 60px;
+    margin-bottom: 70px;
+}
+.mobile-txt div:first-child{
+    padding-top: 70px;
+}
+.launching-soon{
+    position: absolute;
+    right: 28px;
+    bottom: 23px;
+}
+.download-icons{
+   display: flex;
+    margin-bottom: 170px;
+}
+.download-icons a:first-child{
+   margin-right: 30px;
+}
+.pattern-mask{
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.lunch-txt{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-right: 30px;
+   padding-bottom: 20px;
+}
+
+/*---------------------------------we are on mobile end-------------------------------*/
+
+
+
+
+/*---------------------------------our products---------------------------------------*/
+section.pricing {
+  background: #007bff;
+  background: #F7F7F7;
+  height: 738px;
+  margin-bottom: 300px;
+}
+.pricing-heading h2{
+    font-size: 54px;
+    color: #8200DD;
+    padding-top: 60px;
+    padding-bottom: 16px;
+}
+.pricing-heading span{
+    font-size: 49px;
+    color: #000000;
+}
+.pricing-heading p{
+    font-size: 22px;
+    color: #000000;
+    padding-bottom: 57px;
+}
+.pricing .card {
+  width: 450px;
+  border-radius: 6px;
+  border: 1px solid #D6D6D6;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  padding-bottom: 37px;
+      -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  
+}
+.pricing .card:hover{
+    background-image: linear-gradient(to right top, #9e26f0, #9220e0, #871bd0, #7b15c0, #700fb1);
+    transition:  0.5s ease;
+}
+.pricing .card:hover li span,
+.pricing .card:hover h6
+{
+    color: #fff !important;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 38px;
+  padding-top: 23px;
+  color: #000000;
+  margin: 0;
+}
+.price-avatar{
+    padding-top: 23px;
+}
+.price{
+    font-size: 48px;
+    color: #000000;
+    padding-top: 35px;
+}
+.product-name span{
+    font-size: 32px;
+    color: #000000;
+    
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+ .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+     background: 
+  }
+
+.pricing ul{
+    padding-left: 0;
+    list-style: none;
+}
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+.pricing ul li:nth-child(3) img{
+  padding-bottom: 42px;
+    padding-top: 34px;
+}
+.pricing ul li:last-child span{
+    font-size: 16px;
+    color: #8100D9;
+}
+
+.pricing .card:hover .price-btn{
+    background: #fff;
+    color: #8100D9;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.pricing .price-btn {
+    font-size: 22px;
+    border-radius: 5rem;
+    transition: all 0.2s;
+    background: #8100D9;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: -40px;
+    left: 21%;
+    padding: 24px 98px;
+}
+/*---------------------------------our products end---------------------------------------*/
+
+
+/*---------------------------------nexgen desk experience---------------------------------*/
+.tablet-scroll{
+    padding-top: 111px;
+}
+.tablet-scroll h3{
+    font-size: 49px;
+    color: #000000;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.tablet-scroll h2{
+    font-size: 54px;
+    color: #8100D9;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.tablet-scroll p{
+    font-size: 20px;
+    color: #5A5A5A;
+    padding-top: 28px;
+    padding-bottom: 42px;
+}
+.nexgen-exp .row{
+    justify-content: center;
+}
+.nexgen-exp .tablet-scroll{
+    padding-left: 182px;
+}
+.nexgen-exp .carousel-indicators .active{
+    background-color: #000 !important;
+}
+.tab-slider{
+    width: 585px;
+    height: 394px;
+    background-image: url("../images/img/tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.nexgen-exp .carousel{
+    width: 489px !important;
+    height: auto;
+    position: absolute;
+    top: 9%;
+    left: 8%;
+}
+.controls{
+    position: absolute;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    z-index: 999;
+    background: red !important;
+    bottom: -8%;
+    left: 40%;
+}
+.controls .carousel-control-prev, .controls .carousel-control-next{
+    height: 39px;
+    width: 39px;
+    border-radius: 100%;
+    background: #F7F7F7;
+    color: #000;
+    opacity: 1;
+}
+.controls span{
+    font-size: 24px;
+}
+
+.nexgen-exp .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+    background: #8000D5;
+}
+
+.nex-exp-right{
+    background: #8000D5;
+    padding:111px 129px;
+}
+.nex-exp-right h3{
+    color: #fff;
+    padding-bottom: 12px;
+}
+.nex-exp-right p{
+    color: #fff;
+    font-size: 28px; 
+    margin-bottom: 0;
+}
+.nex-exp-right ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.nex-exp-right ul li{
+    font-size: 20px;
+    color: #fff;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.nex-exp-right ul li img{
+    padding-right: 22px;
+}
+
+
+
+/*---------------------------------nexgen desk experience end---------------------------------*/
+
+
+
+
+
+

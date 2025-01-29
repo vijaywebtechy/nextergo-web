@@ -1,0 +1,1238 @@
+/*Override css*/
+
+@media (min-width: 1920px){
+    .container{
+        max-width: 1520px !important;
+    }
+}
+
+
+/*Override css end*/
+
+@media (max-width: 575.98px) {
+   .contact-sec .input-txt{
+       width:273px;
+       padding: 9px;
+        font-size: 15px;
+   }
+   .contact-sec .submit{
+      width:273px;
+       padding: 9px;
+       font-size: 16px;
+   }
+   .contact-sec{
+       padding: 20px 40px;
+   }
+   .contact-sec .contact-1 p{
+       margin: 10px 0px 20px;
+       font-size: 16px;
+   }
+
+   ul .about-txt {
+   font-size: 20px;
+   margin-bottom: 7px;
+}
+/*
+   ul li {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+*/
+   .mail-sec p {
+   font-size: 20px;
+}
+   .footer-sec {
+       padding: 25px;
+   }
+   .footer-txt{
+       display: block;
+   }
+   .footer-txt .ideeo{
+    margin-top: 10px;
+   }
+
+   .order h3{
+   font-size: 30px;
+}
+   .order h5{
+   font-size: 18px;
+}
+   .order button{
+   font-size: 15px;
+      padding: 15px 50px;
+}
+ .product-sec{
+       padding: 20px!important;
+   }
+   .stores h3{
+   font-size: 40px;
+}
+   .stores h5{
+   font-size: 18px;
+       margin: 10px 0px 15px;
+}
+   .store-images{
+       display: block;
+   }
+   .store-images img{
+   margin-top: 15px;
+}
+   .mobile-sec {
+       padding: 20px;
+       display: flex;
+   }
+   .mobile{
+       width: 300px;
+   }
+   .download-icons{
+       display: block;
+       margin-bottom: 0px;
+   }
+   .mobile-txt h3{
+  font-size: 30px;
+ margin-top: 0px;
+}
+.mobile-txt h4{
+  font-size: 30px;
+   color: #6400AA;
+}
+     .mobile-txt p{
+  font-size: 16px;
+margin: 20px 0px 30px;
+}
+   .download-icons .app{
+  margin-bottom: 20px;
+}
+   .lunch-txt{
+       display: none;
+   }
+   .mob-mark{
+       display: none;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+      .contact-sec .input-txt{
+       width:273px;
+       padding: 9px;
+        font-size: 15px;
+   }
+   .contact-sec .submit{
+      width:273px;
+       padding: 9px;
+       font-size: 16px;
+   }
+   .contact-sec{
+       padding: 20px 40px;
+   }
+   .contact-sec .contact-1 p{
+       margin: 10px 0px 20px;
+       font-size: 16px;
+   }
+   .contact-sec ul{
+       padding-left: 0px;
+}
+    .contact-sec ul .about-txt {
+   font-size: 20px;
+   margin-bottom: 7px;
+}
+    .contact-sec ul li {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+   .mail-sec p {
+   font-size: 20px;
+}
+   .footer-sec {
+       padding: 25px;
+   }
+   .footer-txt{
+       display: block;
+   }
+   .footer-txt .ideeo{
+    margin-top: 10px;
+   }
+       .order-sec{
+       padding: 20px!important;
+   }
+   .order h3{
+   font-size: 30px;
+}
+   .order h5{
+   font-size: 18px;
+       margin: 15px 0px 30px;
+}
+   .order button{
+   font-size: 15px;
+      padding: 15px 50px;
+}
+   .product-sec{
+       padding: 20px!important;
+   }
+   .product h3{
+   font-size: 30px;
+}
+   .product h5{
+   font-size: 18px;
+       margin: 10px 0px 15px;
+}
+   .products{
+       display: block;
+   }
+   .products img{
+   margin-top: 15px;
+}
+   .mobile-sec{
+      padding: 0;     
+   }
+   .mobile{
+       display: none;
+   }
+   .download-icons{
+       display: block;
+       margin-bottom: 0px;
+   }
+   .mobile-txt h3{
+  font-size: 30px;
+ margin-top: 0px;
+}
+.mobile-txt h4{
+  font-size: 30px;
+   color: #6400AA;
+}
+     .mobile-txt p{
+  font-size: 16px;
+margin: 20px 0px 30px;
+}
+   .download-icons .app{
+  margin-bottom: 20px;
+}
+   .lunch-txt{
+       display: none;
+   }
+   .mob-mark{
+       display: none;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+      .contact-sec .input-txt{
+       width:273px;
+       padding: 9px;
+        font-size: 15px;
+   }
+   .contact-sec .submit{
+      width:273px;
+       padding: 9px;
+       font-size: 16px;
+   }
+   .contact-sec{
+       padding: 20px 40px;
+   }
+   .contact-sec .contact-1 p{
+       margin: 10px 0px 20px;
+       font-size: 16px;
+       padding-right: 20px;
+   }
+   .contact-sec ul{
+padding-top: 20px;
+       padding-left: 0px;
+}
+   .contact-sec ul .about-txt {
+   font-size: 20px;
+   margin-bottom: 7px;
+}
+   .contact-sec ul li {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+   .contact-head, .mail-sec{
+       padding-top: 40px;
+   }
+   .mail-sec p {
+   font-size: 20px;
+}
+   .footer-sec {
+       padding: 25px;
+   }
+   .footer-txt{
+       display: block;
+   }
+   .footer-txt .ideeo{
+    margin-top: 10px;
+   }
+
+   .order button{
+   font-size: 15px;
+      padding: 15px 50px;
+}
+   .product-sec{
+       padding: 20px!important;
+   }
+   .product h3{
+   font-size: 30px;
+}
+   .product h5{
+   font-size: 18px;
+       margin: 10px 0px 15px;
+}
+   .products{
+       display: block;
+   }
+   .products img{
+   margin-top: 15px;
+       margin-right: 10px;
+}
+   .mobile-sec{
+       padding: 20px;
+   }
+   .download-icons{
+       display: block;
+       margin-bottom: 60px;
+   }
+   .mobile-txt h3{
+  font-size: 30px;
+ margin-top: 0px;
+}
+.mobile-txt h4{
+  font-size: 30px;
+   color: #6400AA;
+}
+     .mobile-txt p{
+  font-size: 16px;
+margin: 20px 0px 30px;
+}
+   .download-icons .app{
+/   margin-bottom: 20px;/
+}
+   .lunch-txt{
+       display: none;
+   }
+   .mob-mark{
+       display: none;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+      .contact-sec .input-txt{
+       width:273px;
+       padding: 9px;
+        font-size: 15px;
+   }
+   .contact-sec .submit{
+      width:273px;
+       padding: 9px;
+       font-size: 16px;
+   }
+
+  .contact-sec .contact-1 p{
+       margin: 10px 0px 20px;
+       font-size: 16px;
+       padding-right: 20px;
+   }
+   .contact-sec ul{
+padding-top: 20px;
+       padding-left: 0px;
+}
+   .contact-sec ul .about-txt {
+   font-size: 20px;
+   margin-bottom: 7px;
+}
+   .contact-sec ul li {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+   .mail-sec p {
+   font-size: 20px;
+}
+   .footer-sec {
+       padding: 25px;
+   }
+
+   .order h3{
+   font-size: 35px;
+}
+   .order h5{
+   font-size: 20px;
+
+}
+   .order button{
+   font-size: 16px;
+      padding: 15px 50px;
+}
+     .product-sec{
+       padding: 20px!important;
+   }
+   .product h3{
+   font-size: 30px;
+}
+   .product h5{
+   font-size: 18px;
+       margin: 10px 0px 15px;
+}
+   .products{
+       display: block;
+   }
+   .products img{
+   margin-top: 15px;
+       margin-right: 10px;
+}
+   .mobile-sec{
+       padding: 20px;
+   }
+   .mobile{
+       width: 386px;
+   height: 433px;
+   }
+   .download-icons{
+       display: block;
+   }
+   .mobile-txt h3{
+  font-size: 30px;
+ margin-top: 0px;
+}
+.mobile-txt h4{
+  font-size: 30px;
+   color: #6400AA;
+}
+     .mobile-txt p{
+  font-size: 16px;
+margin: 20px 0px 30px;
+}
+   .download-icons .app{
+  margin-bottom: 20px;
+}
+   .lunch-txt{
+       display: none;
+   }
+   .mob-mark{
+      top: 13px;
+   width: 148px;
+   }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px){
+      .contact-sec .input-txt{
+       width:300px;
+       padding: 9px;
+        font-size: 15px;
+   }
+   .contact-sec .submit{
+      width:300px;
+       padding: 9px;
+       font-size: 16px;
+   }
+
+  .contact-sec .contact-1 p{
+       margin: 10px 0px 20px;
+       font-size: 16px;
+       padding-right: 20px;
+   }
+   .contact-sec ul{
+       padding-left: 22px;
+}
+   .contact-sec ul .about-txt {
+   font-size: 20px;
+   margin-bottom: 7px;
+}
+  .contact-sec ul li {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+   .mail-sec p {
+   font-size: 20px;
+}
+   .footer-sec {
+       padding: 25px;
+   }
+   .order h3{
+   font-size: 35px;
+}
+   .order h5{
+   font-size: 20px;
+}
+   .order button{
+   font-size: 16px;
+      padding: 15px 80px;
+}
+   .product-sec{
+       padding: 20px!important;
+   }
+   .product h3{
+   font-size: 30px;
+}
+   .product h5{
+   font-size: 18px;
+       margin: 10px 0px 15px;
+}
+   .products{
+       display: block;
+   }
+   .products img{
+   margin-top: 15px;
+       margin-right: 10px;
+}
+   .mobile-sec{
+       padding: 20px;
+   }
+   .mobile{
+       width: 386px;
+   height: 433px;
+   }
+   .download-icons{
+       display: block;
+       margin-bottom: 0px;
+   }
+   .mobile-txt h3{
+  font-size: 30px;
+ margin-top: 0px;
+}
+.mobile-txt h4{
+  font-size: 30px;
+   color: #6400AA;
+}
+     .mobile-txt p{
+  font-size: 16px;
+margin: 20px 0px 30px;
+}
+   .download-icons .app{
+
+}
+   .lunch-txt{
+       display: none;
+   }
+   .mob-mark{
+    top: 13px;
+    width: 148px;
+   }
+}
+
+
+
+/*responsive starts*/
+@media only screen and (min-width: 1200px) and (max-width:1600px){
+    .navbar-nav .nav-item{
+        margin-right: 12px;
+    }
+    .banner-text{
+        top: 54%;
+    }
+    .banner-text h1{
+        font-size: 70px;
+    }
+    .banner-text p{
+        font-size: 26px;
+    }
+    .banner-text div{
+        margin-top: 100px;
+    }
+    .banner-image{
+        height: 600px;
+    }
+    .about-inner{
+        position: initial;
+    }
+    .about{
+        height: auto;
+    }
+    .about .card{
+        width: 462px !important;
+        height: 400px;
+        margin-top: 62px;
+    }
+    .about .card div{
+        padding: 14px;
+    }
+    .about .card div > h3, .ergo-futures .futures-card h3, .tablet-scroll h3{
+        font-size: 39px;
+    }
+    .about .card div > h2, .ergo-futures .futures-card h2, .tablet-scroll h2{
+        font-size: 44px;
+    }
+    .about .card div > p, .ergo-futures .futures-card p, .tablet-scroll p{
+        font-size: 18px;
+    }
+    .about-img img{
+        width: 770px;
+    }
+    .what-is-ergo .slick-next{
+        left: 48%;
+    }
+    .what-is-ergo .slick-dots{
+        top: 33%;
+    }
+    .personal-benefits div:first-child img{
+        width: 240px;
+    }
+    .personal-benefits div:last-child{
+        padding: 85px 38px 70px 150px;
+    }
+    .business-benefits .business-inner-sec div:nth-child(1){
+        padding-left: 0;
+    }
+    .business-benefits .img-rt img{
+        width: 300px;
+    }
+    .personal-benefits h2,.business-benefits div h2{
+        font-size: 34px;
+    }
+    .personal-benefits ul li, .business-benefits div ul li{
+        font-size: 16px;
+    }
+    .personal-benefits ul li, .business-benefits div ul li{
+        margin-bottom: 24px;
+    }
+    .business-benefits .img-rt img{
+        top: 10%;
+    }
+    .business-benefits .business-inner-sec{
+        padding: 78px 0 38px 240px;
+    }
+    .ergo-futures .futures-card p{
+        padding-bottom: 75px;
+    }
+    .ergo-futures .futures-card{
+        height: 555px;
+         width: 540px;
+    }
+    .slider_section h3{
+        font-size: 26px;
+    }
+    .slider_section p{
+        font-size: 18px;
+    }
+    .slick-vertical .slick-slide{
+        height: 600px;
+        width: 803px;
+    }
+    .ergo-futures .futures-card{
+        margin-left: 70px;
+    }
+    .nexgen-exp .tablet-scroll{
+        padding-left: 154px;
+    }
+    .tab-slider{
+        width: 475px;
+        height: 320px;
+    }
+    .nexgen-exp .carousel{
+        width: 403px !important;
+        height: 265px;
+    }
+    .mobile-txt, div h3{
+        font-size: 39px;
+    }
+    .nex-exp-right p{
+        font-size: 22px;
+    }
+    .nex-exp-right ul li{
+        font-size: 18px;
+    }
+    .nex-exp-right{
+        padding: 100px 104px;
+    }
+    .nex-exp-right ul{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricing ul li{
+        margin-bottom: 8px;
+    }
+    .pricing .card{
+        width: auto;
+    }
+    .pricing .price-btn{
+        padding: 20px 55px;
+        height: auto;
+        width: auto;
+    }
+    .pricing ul li:nth-child(3) img{
+        padding-bottom: 32px;
+        padding-top: 20px;
+    }
+    section.pricing{
+        margin-bottom: 230px;
+        height: 660px;
+    }
+    .mobile-sec{
+        padding-bottom: 0;
+    }
+    .mobile-txt, div h2{
+        font-size: 49px;
+    }
+    .stores h3{
+        font-size: 46px;
+    }
+    .stores h5{
+        font-size: 28px;
+    }
+    .store-images{
+        padding-top: 38px;
+    }
+    .store-images img{
+        margin-top: 20px;
+    }
+    .order-sec{
+        background-position-x:left; 
+    }
+    .about .container{
+        margin-bottom: 130px;
+    }
+    .what-is-ergo{
+        margin-bottom: 90px;
+    }
+    .futures-slider{
+        width: 650px;
+    }
+    .futures-slider .vertical-dots{
+        right: -80px;
+        position: absolute;
+    }
+    .what-is-ergo .slider div h3{
+        font-size: 39px;
+    }
+    .what-is-ergo .slider div h2{
+        font-size: 44px;
+    }
+    .what-is-ergo .slider div p{
+        font-size: 18px;
+    }
+    .pricing-heading h2{
+        font-size: 44px;
+    }
+    .pricing-heading p{
+        font-size: 20px;
+    }
+    .pricing .card-price{
+        font-size: 32px;
+    }
+    .price{
+        font-size: 38px;
+    }
+    .product-name span{
+        font-size: 28px;
+    }
+    .mobile-txt div:first-child{
+        margin-top: 0;
+    }
+    .mobile{
+        width: auto;
+        height: 606px;
+    }
+
+    .btns {
+        padding: 20px 90px;
+        font-size: 20px;
+    }
+    .controls {
+        bottom: -18%;
+    }
+    .ergo-futures{
+        padding: 65px 0;
+    }
+    .futures-slider{
+        margin-left: 45px;
+    }
+
+    
+}
+@media (max-width: 1366px) {
+    .nexgen-exp .tablet-scroll{
+        padding-left: 110px !important;
+    }
+    .light{
+        left: 42px;
+        top: 49%;
+        transform: rotate(6deg);
+    }
+
+}
+@media (max-width: 1440px){
+    .light{
+        left: 41px;
+        top: 49%;
+        transform: rotate(6deg);
+    }
+}
+@media (max-width: 1600px){
+    .light{
+        left: 50px;
+        top: 49%;
+        transform: rotate(6deg);
+    }
+}
+
+
+@media only screen and (min-width:767px) and (max-width:1024px){
+    .navbar-nav .nav-item{
+        margin-right: 0px;
+    }
+    a.nav-link{
+        font-size: 16px;
+    }
+    .navbar-nav li:last-child a{
+        padding: 12px 25px !important;
+    }
+    .banner-image{
+        height: 640px;
+    }
+    .banner-text h1{
+        font-size: 60px;
+    }
+    .banner-text{
+        top: 54%;
+    }
+    .about{
+        height: auto;
+    }
+    .about .card{
+        display: block;
+        margin: 0 auto;
+        margin-top: 73px;
+        background-color: rgb(129, 0, 217,0.8);
+    }
+    .what-is-ergo{
+        margin-top: 150px;
+    }
+    .what-is-ergo .slick-next{
+        left: 60%;
+    }
+    .what-is-ergo .slick-dots{
+        top: 29%;
+    }
+    .ergo-futures .futures-card{
+        margin-left: 0;
+    }
+    .ergo-futures .futures-card p{
+        padding-bottom: 43px;
+    }
+    .business-benefits{
+        margin-top: 40px;
+    }
+    .ergo-futures .futures-card{
+/*        margin-top: 77px;*/
+    }
+    .ergo-futures .futures-card{
+        width:auto;
+    }
+    .futures-slider{
+        padding-top: 40px;
+        padding-bottom: 0;
+        width: 530px !important;
+    }
+    .nex-exp-right{
+        margin-top: 110px;
+    }
+    .btns {
+        font-size: 20px;
+        padding: 25px 85px;
+    }
+    .personal-benefits div:first-child, .personal-benefits div:last-child,.business-benefits .img-rt img{
+        position: relative;
+    }
+    .personal-benefits div:last-child{
+        padding: 10px;
+        left: 0;
+    }
+    .business-benefits .business-inner-sec,
+    .personal-benefits div:last-child
+    {
+        padding:70px 10px;
+    }
+    
+    .business-benefits .business-inner-sec div:nth-child(1){
+        padding: 0;
+    }
+    .business-benefits .img-rt img{
+        right: 0;
+        top: 0;
+    }
+    .ergo-benefits .row{
+        display: block;
+    }
+    .ergo-benefits .row .col-lg-6{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .pattern1{
+        display: none;
+    }
+    .pricing .card{
+        width: auto;
+        margin-bottom: 90px !important;
+    }
+    .pricing .price-btn{
+        padding: 15px 25px;
+    }
+    .pattern-mask{
+        display: none;
+    }
+    .store-images img{
+        margin-top: 20px;
+    }
+    .store-images{
+        padding-top: 20px;
+    }
+    .order .btns{
+        margin-top: 60px;
+    }
+    .nexgen-exp .tablet-scroll{
+        padding-left: 0 !important;
+    }
+    .ergo-futures{
+        padding: 50px 0;
+    }
+    .business-benefits .img-rt img,.personal-benefits div:first-child img{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width:320px) and (max-width:575px){
+    .navbar {
+        padding: 1.3rem 1rem !important;
+    }
+    .navbar-brand img{
+        width: 200px; 
+    }
+    .navbar-nav .nav-item{
+        margin-right: 0;
+    }
+    .banner{
+        padding-top: 100px;
+    }
+    .banner-text{
+        top: 65%;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 18px;
+    }
+    .banner-text div a{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .btns{
+        font-size: 16px;
+        padding: 17px 69px;
+        text-align: center;
+    }
+    .banner-image{
+        height:  406px;
+    }
+    .banner-text div{
+        margin-top: 0;
+    }
+    .about{
+        height: auto;
+    }
+    .about-img img{
+        display: none;
+    }
+    .about .card{
+        margin-top: 0;
+        height: auto;
+    }
+    .about .card div{
+        padding: 10px 6px;
+    }
+    .about .card div > p{
+        font-size: 20px;
+    }
+    .what-is-ergo .slick-next{
+        left: 0;
+    }
+    .what-is-ergo .slick-dots{
+        bottom: -8px;
+    }
+
+    .business-benefits .img-rt img{
+        position: relative;
+        right: 0;
+    }
+    .business-benefits .business-inner-sec{
+        padding: 0;
+    }
+    .pattern1 img{
+        display: none;
+    }
+    .business-benefits .business-inner-sec div:nth-child(1){
+        padding: 25px 0;
+    }
+    .personal-benefits div:last-child{
+        position: relative;
+        left: 0;
+        padding: 25px 0;
+    }
+    .ergo-futures{
+        padding: 82px 0;
+    }
+    .ergo-futures .futures-card{
+        margin-left: 0;
+        width: auto;
+    }
+    .ergo-futures .container-fluid{
+        display: block;
+    }
+    .ergo-futures .futures-card{
+        padding: 80px 20px;
+    }
+
+    .ergo-futures .futures-card p{
+        font-size: 20px;
+        padding-bottom: 70px;
+    }
+    .futures-slider{
+        margin-top: 50px;
+    }
+    .futures-card{
+        padding-bottom: 70px;
+    }
+    .what-is-ergo .slick-next{
+        top: 24%;
+    }
+    .nexgen-exp .tablet-scroll{
+        padding-left: 0 !important;
+    }
+    .nex-exp-right{
+        margin-top: 110px;
+        padding: 30px 11px;
+        padding-bottom: 100px;
+    }
+    .nex-exp-right h2{
+        font-size: 34px;
+    }
+    .nex-exp-right ul{
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .pricing-heading h2{
+        padding-top: 20px;
+    }
+    .pricing .card{
+        width: auto;
+        margin-bottom: 80px !important;
+    }
+    section.pricing{
+        height: auto;
+        margin-bottom: 0;
+    }
+    .pricing .price-btn{
+        bottom: -37px;
+        left: 18%;
+        padding: 25px 70px;
+        height: auto;
+        width: auto;
+    }
+    .order-sec{
+        padding: 80px 0
+    }
+    .store-images{
+        padding-top: 20px;
+    }
+    .tab-slider{
+        height: 225px;
+        width: 335px;
+        margin: 0 auto;
+    }
+    .nexgen-exp .carousel{
+        width: 282px !important;
+    }
+    .controls{
+        bottom: -12%;
+    left: 36%;
+    }
+    .what-is-ergo .slick-dots{
+        display: none !important;
+    }
+    .contact-sec ul{
+        padding: 0;
+    }
+    .contact-sec ul .link-head{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .futures-slider ul{
+        padding: 0;
+    }
+    .personal-benefits div:first-child{
+        position: relative;
+    }
+    .business-benefits{
+        position: relative;
+        right: 0;
+        margin-top: 50px;
+    }
+ 
+
+}
+
+@media (max-width:768px){
+    .futures-slider{
+        width: auto !important;
+    }
+    .ergo-futures .container-fluid .row{
+        display: block;
+        margin: 0 auto;
+    }
+    .futures-card{
+        width: 100% !important;
+    }
+    .ergo-futures{
+        padding: 85px 0;
+    }
+    .tab-slider{
+        margin: 0 auto;
+    }
+    .nex-exp-right{
+        padding: 70px 15px;
+    }
+    .pricing .price-btn{
+        left: 0;
+        bottom: -30px;
+        right: 0;
+
+    }
+    section.pricing{
+        height: auto;
+        margin-bottom: 0;
+    }
+    .slider-img img{
+        margin: 0 auto;
+    }
+    .personal-benefits div:first-child img,
+    .business-benefits .img-rt img{
+        display: block;
+        margin: 0 auto;
+    }
+    .mobile-txt{
+        padding-bottom: 70px;
+    }
+    .launching-soon{
+        bottom: 0;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .ergo-futures .futures-card{
+        width:auto;
+    }
+    .futures-slider{
+        padding-top: 40px;
+        padding-bottom: 0;
+        width: 530px !important;
+    }
+    .tab-slider{
+        width: 444px;
+        height : 298px;
+    }
+    .nexgen-exp .carousel{
+        width: 376px !important;
+        
+    }
+    .mobile-txt, div h3{
+        font-size: 40px;
+    }
+    .nex-exp-right p{
+        font-size: 20px;
+    }
+    .nex-exp-right ul li{
+        font-size: 18px;
+    }
+    .nex-exp-right{
+        padding: 50px 44px;
+    }
+    .nex-exp-right{
+        margin-top: 0;
+    }
+    .tablet-scroll{
+        margin-top: 0px;
+    }
+    .price{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:667px) and (max-width:736px){
+    .navbar{
+        position: relative;
+    }
+    .banner-image{
+        height: 500px;
+    }
+    .banner-text div{
+        margin-top: 50px;
+    }
+    .banner-text{
+        top: 60%;
+    }
+    .banner-text h1{
+        font-size: 50px;
+    }
+    .btns{
+        display: block;
+    }
+    .banner-text div a{
+        margin-bottom: 20px;
+    }
+    .what-is-ergo .slick-next {
+    top: 29%;
+    left: 0;
+    }
+    .what-is-ergo .slick-dots{
+        display: none !important; 
+    }
+    .pattern1{
+        display: none;
+    }
+    .personal-benefits div:first-child{
+        position: relative;
+    }
+    .personal-benefits div:last-child{
+        position: relative;
+        left: 0;
+        padding: 50px 0;
+    }
+    .business-benefits .img-rt img{
+        position: relative;
+    }
+    .business-benefits .business-inner-sec{
+        position: relative;
+        padding: 50px 0;
+    }
+    .business-benefits .business-inner-sec div:nth-child(1){
+        padding-left: 0;
+    }
+    .business-benefits .img-rt img{
+        right: 0;
+    }
+    .ergo-futures .futures-card{
+        margin-left: 0;
+    }
+    .futures-slider{
+        margin-top: 32px;
+    }
+    .nexgen-exp .tablet-scroll{
+        padding-left: 0 !important;
+    }
+    .pricing .card{
+        width: auto;
+    }
+    .store-images img{
+        margin-bottom: 24px;
+    }
+    .nex-exp-right {
+    margin-top: 130px;
+}
+
+/*responsive starts end*/
+
+
+
+
+
